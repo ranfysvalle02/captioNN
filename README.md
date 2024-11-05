@@ -145,8 +145,6 @@ In our setup:
 
 ## Designing the Model: CNN Encoder and LSTM Decoder
 
-![](https://i.sstatic.net/uMdVz.png)
-
 ### Overview of the Architecture
 
 Our image captioning model, **captioNN**, is designed with a clear separation of concerns, leveraging the strengths of Convolutional Neural Networks (CNNs) for feature extraction and Recurrent Neural Networks (RNNs) for language generation. This modular design ensures clarity, maintainability, and scalability, allowing each component to specialize in its designated task.
