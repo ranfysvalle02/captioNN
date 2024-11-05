@@ -1,4 +1,4 @@
-# captioNN: Building an Image Captioning Model using a CNN+RNN
+# captioNN: Building an Image Captioning Model using a [CNN](https://github.com/ranfysvalle02/shapeclassifer-cnn) + [RNN](https://github.com/ranfysvalle02/rnn-4-stocks)
 
 ![](https://miro.medium.com/v2/resize:fit:1400/0*ulpmsiW5x6g4z8wo)
 
@@ -159,7 +159,7 @@ At the heart of the visual processing pipeline is the **CNN Encoder**. This comp
 
 **Key Attributes:**
 
-- **Pretrained Models:** Using a pretrained CNN (e.g., ResNet50) speeds up training and enhances feature extraction capabilities, benefiting from transfer learning.
+- **Pretrained Models:** Using a pretrained CNN (e.g., ResNet50) speeds up training and enhances feature extraction capabilities, benefiting from [transfer learning](https://github.com/ranfysvalle02/cnn-transfer-learning/).
 
 - **Feature Extraction:** The CNN processes the input image through multiple convolutional layers, capturing intricate patterns and structures inherent in the shapes and colors.
 
