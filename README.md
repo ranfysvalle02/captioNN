@@ -1,5 +1,45 @@
 # captioNN: Building an Image Captioning Model using a [CNN](https://github.com/ranfysvalle02/shapeclassifer-cnn) + [RNN](https://github.com/ranfysvalle02/rnn-4-stocks)
 
+---
+
+Here's the "Behind the Scenes" section for your project:
+
+---
+
+## Behind the Scenes: How Does the Magic Work?
+
+Creating a descriptive caption from an image involves several complex steps. Let's break down the magic behind the **captioNN** model:
+
+### Step 1: Feature Extraction with CNN Encoder
+
+The journey starts with the CNN encoder, which extracts high-level features from the input image. By processing the image through convolutional layers (e.g., a pretrained ResNet50), the model identifies essential visual patterns, like edges, shapes, and textures, that help distinguish objects within the image. This transformation reduces the image into a dense feature map, retaining crucial details needed for captioning while discarding unnecessary information. To prepare these features for the next stage, an adaptive pooling layer reduces the feature map to a fixed size, making it compatible with the RNN decoder.
+
+### Step 2: Feature Aggregation – Building a Compact Representation
+
+Once the feature map is created, the model compresses this information into a compact feature vector. By averaging or pooling the feature map, the model produces a fixed-size representation that captures the most salient visual characteristics. This step simplifies the input for the RNN decoder, ensuring it focuses only on the core details required to generate an accurate caption.
+
+### Step 3: Caption Generation with the RNN Decoder
+
+With a compact representation of the image, the RNN decoder, often an LSTM, begins the process of generating a coherent caption. Here’s how it works:
+
+- **Embedding and Decoding:** The decoder starts with an initial hidden state derived from the image features. It receives a `<SOS>` (start of sentence) token as input and outputs the first word in the caption. This word is embedded into a vector and fed back into the LSTM, along with the previous hidden state.
+  
+- **Sequential Prediction:** Word by word, the decoder predicts the next word in the sequence based on both the visual features and the context of previous words. This process continues until the decoder predicts an `<EOS>` (end of sentence) token, signaling the completion of the caption.
+
+### Step 4: Vocabulary Mapping and Word Selection
+
+Each output from the decoder is a probability distribution over the entire vocabulary. The model selects the word with the highest probability (or applies a search strategy like beam search for more refined results). This word is mapped to a vocabulary token, converting the raw predictions into human-readable text.
+
+### Step 5: Iterating Until the Caption is Complete
+
+The decoder repeats this process, generating words one by one until it reaches the end of the caption. Through this synergy of visual features and sequential processing, the model constructs a coherent and contextually accurate sentence that describes the content of the image.
+
+### The Magic of Fusion: Visual and Linguistic Synergy
+
+By blending feature extraction, compact representation, and sequential prediction, **captioNN** translates visual information into a descriptive sentence. This collaboration between the CNN encoder and RNN decoder makes the model remarkably adept at generating captions that not only capture what’s in the image but also present it in a meaningful and grammatically coherent way.
+
+--- 
+
 ![](https://miro.medium.com/v2/resize:fit:1400/0*ulpmsiW5x6g4z8wo)
 
 ---
