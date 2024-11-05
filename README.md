@@ -1,5 +1,7 @@
 # captioNN: Building an Image Captioning Model using a [CNN](https://github.com/ranfysvalle02/shapeclassifer-cnn) + [RNN](https://github.com/ranfysvalle02/rnn-4-stocks)
 
+![](https://miro.medium.com/v2/resize:fit:1400/0*ulpmsiW5x6g4z8wo)
+
 ---
 
 ## Behind the Scenes: How Does the Magic Work?
@@ -33,10 +35,6 @@ The decoder repeats this process, generating words one by one until it reaches t
 ### The Magic of Fusion: Visual and Linguistic Synergy
 
 By blending feature extraction, compact representation, and sequential prediction, **captioNN** translates visual information into a descriptive sentence. This collaboration between the CNN encoder and RNN decoder makes the model remarkably adept at generating captions that not only capture what’s in the image but also present it in a meaningful and grammatically coherent way.
-
---- 
-
-![](https://miro.medium.com/v2/resize:fit:1400/0*ulpmsiW5x6g4z8wo)
 
 ---
 
