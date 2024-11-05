@@ -1,4 +1,4 @@
-\# captioNN: A Comprehensive Guide to Building an Image Captioning Model with PyTorch and PyTorch Lightning
+# captioNN: A Comprehensive Guide to Building an Image Captioning Model with PyTorch and PyTorch Lightning
 
 ---
 
