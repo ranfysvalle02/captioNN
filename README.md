@@ -259,9 +259,6 @@ In this exploration of **captioNN**, we've traversed the essential components th
 
 ## Appendix
 
-### Cross-Entropy Loss: The Core of Learning
-Cross-entropy loss is a fundamental loss function used in many machine learning tasks, including image captioning. It measures the difference between two probability distributions: the predicted distribution and the true distribution. In the context of image captioning, the predicted distribution is the model's output (the probability of each word being the next word in the sequence), and the true distribution is the ground truth caption.
-
 ### LSTM Architecture: The Sequential Powerhouse
 Long Short-Term Memory (LSTM) networks are a type of Recurrent Neural Network (RNN) designed to handle long-term dependencies in sequential data. This makes them ideal for tasks like image captioning, where the order of words is crucial.
 
