@@ -2,10 +2,6 @@
 
 ---
 
-# Building an Explainable and Composable Image Captioning Model with PyTorch
-
-In the rapidly evolving field of computer vision and natural language processing, the ability to generate descriptive captions for images stands out as a significant milestone. This capability not only enhances accessibility but also bridges the gap between visual and textual data. In this blog post, we'll delve into a Python-based implementation of an image captioning model that emphasizes **explainability** and **composability** using PyTorch and PyTorch Lightning. We'll walk through each component of the model, highlighting how each part contributes to the overall functionality and maintainability of the system.
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
