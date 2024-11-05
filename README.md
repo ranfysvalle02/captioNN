@@ -2,10 +2,6 @@
 
 ---
 
-Here's the "Behind the Scenes" section for your project:
-
----
-
 ## Behind the Scenes: How Does the Magic Work?
 
 Creating a descriptive caption from an image involves several complex steps. Let's break down the magic behind the **captioNN** model:
