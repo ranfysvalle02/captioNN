@@ -151,6 +151,8 @@ In our setup:
 
 Our image captioning model, **captioNN**, is designed with a clear separation of concerns, leveraging the strengths of Convolutional Neural Networks (CNNs) for feature extraction and Recurrent Neural Networks (RNNs) for language generation. This modular design ensures clarity, maintainability, and scalability, allowing each component to specialize in its designated task.
 
+![](https://i.ytimg.com/vi/f0g-iGG6J-k/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAlBligVe6ZPTdcEdSSGJdx1axuMw)
+
 ### CNN Encoder: Extracting Visual Features
 
 At the heart of the visual processing pipeline is the **CNN Encoder**. This component is responsible for transforming raw images into high-level feature representations that encapsulate the essential visual information required for caption generation.
