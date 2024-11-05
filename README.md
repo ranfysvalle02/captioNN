@@ -1,6 +1,6 @@
 # captioNN: Building an Image Captioning Model using a CNN+RNN
 
-![](https://www.researchgate.net/publication/361356819/figure/fig4/AS:11431281078524903@1660096244714/NIC-Image-captioning-model-with-CNN-encoder-and-RNN-decoder-49.png)
+![](https://miro.medium.com/v2/resize:fit:1400/0*ulpmsiW5x6g4z8wo)
 
 ---
 
