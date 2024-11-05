@@ -47,6 +47,8 @@ Imagine a blank canvas where a single, vibrant shape is drawn. The uniformity an
 
 ---
 
+![](https://miro.medium.com/v2/resize:fit:2000/1*--F_aLRNh8rmRpeLrhmSoQ.jpeg)
+
 ## Managing Vocabulary: The Backbone of Caption Generation
 
 ### The Importance of Vocabulary
