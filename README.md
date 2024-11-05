@@ -17,8 +17,6 @@
 
 ---
 
-![](https://i.sstatic.net/uMdVz.png)
-
 ## Introduction
 
 Image captioning is a fascinating area that combines computer vision and natural language processing. Its goal is to generate descriptive and coherent sentences that accurately represent the content of an image. This task requires not only a deep understanding of visual elements but also the ability to construct meaningful and grammatically correct sentences.
@@ -146,6 +144,8 @@ In our setup:
 ---
 
 ## Designing the Model: CNN Encoder and LSTM Decoder
+
+![](https://i.sstatic.net/uMdVz.png)
 
 ### Overview of the Architecture
 
